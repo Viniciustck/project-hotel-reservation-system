@@ -5,15 +5,15 @@
 
 Projeto desenvolvido para o curso Full Stack Java da EBAC. O objetivo é um sistema de console (CLI) para gerenciar reservas de hotel, aplicando conceitos de Java, Orientação a Objetos e uma arquitetura de software profissional em camadas.
 
-##  Funcionalidades
+## Funcionalidades
 
 O sistema oferece um menu interativo com as seguintes opções:
 
-* ✔️ **Cadastrar Reserva:** Adiciona uma nova reserva ao sistema. O sistema valida dados de entrada (dias e valores positivos) e regras de negócio (capacidade máxima de 10 reservas).
-* ✔️ **Listar Reservas:** Exibe todas as reservas cadastradas, formatadas com seus detalhes e valor total da estadia.
-* ✔️ **Buscar Reserva:** Permite a busca de reservas por parte do nome do hóspede (sem diferenciar maiúsculas de minúsculas).
-* ✔️ **Ordenar Reservas:** Ordena a lista de reservas em ordem decrescente (do maior para o menor) com base no número de dias da estadia.
-* ✔️ **Tratamento de Erros:** O sistema é robusto e trata entradas inválidas do usuário (ex: letras em campos numéricos) sem quebrar a execução.
+*  **Cadastrar Reserva:** Adiciona uma nova reserva ao sistema. O sistema valida dados de entrada (dias e valores positivos) e regras de negócio (capacidade máxima de 10 reservas).
+*  **Listar Reservas:** Exibe todas as reservas cadastradas, formatadas com seus detalhes e valor total da estadia.
+*  **Buscar Reserva:** Permite a busca de reservas por parte do nome do hóspede (sem diferenciar maiúsculas de minúsculas).
+*  **Ordenar Reservas:** Ordena a lista de reservas em ordem decrescente (do maior para o menor) com base no número de dias da estadia.
+*  **Tratamento de Erros:** O sistema é robusto e trata entradas inválidas do usuário (ex: letras em campos numéricos) sem quebrar a execução.
 
 ## Arquitetura do Projeto
 
@@ -49,7 +49,7 @@ src/
 * **Enums:** Para segurança de tipos (Tipo de Quarto).
 * **API de `Comparator`:** Para ordenação customizada da lista.
 
-## ▶ Como Executar
+## Como Executar
 
 ### Pré-requisitos
 
