@@ -40,7 +40,7 @@ src/
 
 ##  Tecnologias Utilizadas
 
-* **Java 17 (ou 11+)**
+* **Java 21+**
 * **Programação Orientada a Objetos (OOP):** Encapsulamento, Polimorfismo (toString), Abstração.
 * **Collections Framework:** Uso de `List` e `ArrayList` para gerenciamento de dados.
 * **Tratamento de Exceções:** `try-catch`, `IllegalArgumentException` e exceções customizadas.
